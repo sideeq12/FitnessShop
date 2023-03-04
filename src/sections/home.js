@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import CoverVideo from '../components/CoverVideo'
+import Logo from '../components/logo'
 
 const Section = styled.section`
     min-height: 100vh;
@@ -12,7 +13,7 @@ function Home() {
   return (
     <Section>
         <CoverVideo />
-        <h1>Logo</h1>
+        <Logo />
         <h2>Navbar</h2>
     </Section>
   )
